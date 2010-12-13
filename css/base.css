@@ -1,0 +1,22 @@
+body
+{
+	background:white;
+}
+#navbar
+{
+	text-align:center;
+}
+.navbar
+{
+	display:inline;
+	padding:20px;
+}
+h1
+{
+	text-align:center;
+	font-family:arial;
+}
+p
+{
+	margin-left:25%;
+}
