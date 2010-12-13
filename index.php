@@ -3,9 +3,19 @@
 <html>
 	<head>
 		<title>Project Club | Welcome</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
 	</head>
 	<body>
-		<h1>Welcome to The Projects Club Website</h1>
-		<p>This is for Practicing Purposes</p>
+		<h1>Projects Club</h1>
+			<ul id="navbar">
+				<li class="navbar"><a href="index.php">Home</a></li>
+				<li class="navbar"><a href="html/projects.php">Projects</a></li>
+				<li class="navbar"><a href="html/members.php">Members</a></li>
+				<li class="navbar"><a href="html/about.php">About</a></li>
+			</ul>
+		<div id="header1">
+			<img src="pictures/projectsclub1.jpg" width=300px/>
+			<img src="pictures/projectsclub2.jpg" width=300px/>
+		</div>
 	</body>
 </html>
