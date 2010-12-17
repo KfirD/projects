@@ -8,10 +8,9 @@
 	<body>
 		<h1>Projects Club</h1>
 			<ul id="navbar">
-				<li class="navbar"><a href="index.php">Home</a></li>
-				<li class="navbar"><a href="html/projects.php">Projects</a></li>
-				<li class="navbar"><a href="html/members.php">Members</a></li>
-				<li class="navbar"><a href="html/about.php">About</a></li>
+					<?php
+					include("navbar.php");
+					?>
 			</ul>
 		<div id="header1">
 			<img src="pictures/projectsclub1.jpg" width=300px/>
