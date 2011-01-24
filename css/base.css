@@ -1,50 +1,60 @@
 /* General */
 * {
-	margin:0px;
-	padding:0px;
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
 }
 body {
+	background-color:black;
+	background-image:url('../pictures/brownbackground.gif');
+	background-repeat:no-repeat;
+	background-position:left 300px;
 }
 
-/* banner */
-div.banner {
-	width:100%;
-	height:100px;
-	background-image:url('../pictures/header.jpg');
-	background-repeat:repeat-x;
+/* Header */
+#header {
+	width:950px;
 	margin:auto;
+	margin-top:20px;
+	padding-bottom:10px;
+	border-color:white;
+	border-bottom-style:solid;
+	border-bottom-color:white;
 }
-h1.banner {
-	width:900px;
-	padding-top:20px;
-	margin:auto;
-	letter-spacing: 5px;
-	font-size:40px;
-	color:white;
+.clear {
+	clear:both;
+	display:block;
 }
 
-/* navbar */
+/* Logo */	
+#logo {
+	width:300px;
+	float:left;
+}
+img.logo {
+	display:block;
+	height:20px;
+	margin:auto;
+}
+
+/* Navbar */
 #navbar {
-	width:100%;
-	height:30px;
-	padding:5px;
-	text-align:center;
-	background-image:url('../pictures/navbar.jpg');
-	background-repeat:repeat-x;
+	float:right;
 }
 li.navbar {
-	display:inline;
-	padding-left:60px;
-	padding-right:60px;
-	padding-top:5px;
-	padding-bottom:6px;
-	border-left:solid;
-	border-width:1px;
+	float:left;
+	padding:2px;
+	margin:4px;
+	list-style-type:none;
 }
 a.navbar {
+	color:white;
 	text-decoration:none;
-	color:black;
+	border: solid 1px red;
+	padding:4px;
+	font-size:13px;
 }
-.navbar.hover {
-	background-image:url('../pictures/navbarhover.jpg');
+a.navbar:hover {
+	border: solid 1px white;
+	text-decoration:underline;
 }
